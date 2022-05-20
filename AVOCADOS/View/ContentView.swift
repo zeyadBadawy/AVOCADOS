@@ -10,12 +10,13 @@ import SwiftUI
 struct ContentView: View {
     //MARK: PROPERTIES
     var headers = headersData
+    var facts = factsData
+    var recipes = recipesData
     //MARK: BODY
     var body: some View {
         ScrollView(.vertical, showsIndicators: false ) {
             VStack(alignment: .center, spacing: 20) {
                 //MARK: HEADER
-                
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(alignment: .top, spacing: 0) {
                         ForEach(headers , id:\.self.id ) { item in
@@ -29,6 +30,34 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .modifier(TitleModifier())
                 DishesView()
+                    .padding()
+                
+                //MARK: Facts View
+                Text("Avocados Facts")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack {
+                        ForEach(facts) { item in
+                            FactsView(fact: item)
+                                .padding(.leading , 60)
+                                .padding(.trailing , 20)
+                                .padding(.vertical)
+                        }
+                    }
+                }
+                
+                //MARK: RECIPES
+                Text("Recipes")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+               
+                VStack(alignment: .center, spacing: 12) {
+                        ForEach(recipes , id: \.self.id) { item in
+                            RecipeCardView(recipe:item )
+                        }
+                    }
                     .padding()
                 
                 //MARK: FOOTER
