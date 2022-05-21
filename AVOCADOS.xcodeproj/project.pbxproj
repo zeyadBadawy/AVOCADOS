@@ -32,6 +32,9 @@
 		714A3983283820B100C364D0 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A3981283820B100C364D0 /* RecipeCookingView.swift */; };
 		714A3984283820B100C364D0 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A3982283820B100C364D0 /* RecipeRatingView.swift */; };
 		714A39862838235E00C364D0 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A39852838235E00C364D0 /* RecipeDetailsView.swift */; };
+		716F76A92838E14800B9CD59 /* RipeningStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716F76A82838E14800B9CD59 /* RipeningStageView.swift */; };
+		716F76AB2838E2C800B9CD59 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716F76AA2838E2C800B9CD59 /* RipeningData.swift */; };
+		716F76AD2838E2D100B9CD59 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716F76AC2838E2D000B9CD59 /* RipeningModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +65,9 @@
 		714A3981283820B100C364D0 /* RecipeCookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		714A3982283820B100C364D0 /* RecipeRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
 		714A39852838235E00C364D0 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
+		716F76A82838E14800B9CD59 /* RipeningStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStageView.swift; sourceTree = "<group>"; };
+		716F76AA2838E2C800B9CD59 /* RipeningData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
+		716F76AC2838E2D000B9CD59 /* RipeningModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 				714A3981283820B100C364D0 /* RecipeCookingView.swift */,
 				714A3982283820B100C364D0 /* RecipeRatingView.swift */,
 				714A39852838235E00C364D0 /* RecipeDetailsView.swift */,
+				716F76A82838E14800B9CD59 /* RipeningStageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 				714A396D2837C10D00C364D0 /* HeaderData.swift */,
 				714A397728380F9100C364D0 /* FactsData.swift */,
 				714A397D2838194900C364D0 /* RecipeData.swift */,
+				716F76AA2838E2C800B9CD59 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				714A396B2837C0C500C364D0 /* HeaderModel.swift */,
 				714A397928380FAF00C364D0 /* Fact.swift */,
 				714A397B2838192E00C364D0 /* RecipeModel.swift */,
+				716F76AC2838E2D000B9CD59 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -237,7 +246,9 @@
 			files = (
 				714A39622837836F00C364D0 /* AvocadosView.swift in Sources */,
 				714A3984283820B100C364D0 /* RecipeRatingView.swift in Sources */,
+				716F76AD2838E2D100B9CD59 /* RipeningModel.swift in Sources */,
 				714A397C2838192E00C364D0 /* RecipeModel.swift in Sources */,
+				716F76AB2838E2C800B9CD59 /* RipeningData.swift in Sources */,
 				714A396C2837C0C500C364D0 /* HeaderModel.swift in Sources */,
 				714A3983283820B100C364D0 /* RecipeCookingView.swift in Sources */,
 				714A39642837839600C364D0 /* RipeningStagesView.swift in Sources */,
@@ -254,6 +265,7 @@
 				714A39592837767800C364D0 /* SceneDelegate.swift in Sources */,
 				714A396E2837C10D00C364D0 /* HeaderData.swift in Sources */,
 				714A397E2838194900C364D0 /* RecipeData.swift in Sources */,
+				716F76A92838E14800B9CD59 /* RipeningStageView.swift in Sources */,
 				714A396A2837B8E600C364D0 /* HeaderView.swift in Sources */,
 				714A39742837C66900C364D0 /* DishesView.swift in Sources */,
 				714A39802838198800C364D0 /* RecipeCardView.swift in Sources */,

@@ -1,7 +1,8 @@
 //
-//  Created by Robert Petras
-//  SwiftUI Masterclass ♥ Better Apps. Less Code.
-//  https://swiftuimasterclass.com
+//  RecipeData.swift
+//  AVOCADOS
+//
+//  Created by Zeyad Badawy on 20/05/2022.
 //
 
 import SwiftUI
