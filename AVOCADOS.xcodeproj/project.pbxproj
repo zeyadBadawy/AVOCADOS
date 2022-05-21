@@ -31,6 +31,7 @@
 		714A39802838198800C364D0 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A397F2838198800C364D0 /* RecipeCardView.swift */; };
 		714A3983283820B100C364D0 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A3981283820B100C364D0 /* RecipeCookingView.swift */; };
 		714A3984283820B100C364D0 /* RecipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A3982283820B100C364D0 /* RecipeRatingView.swift */; };
+		714A39862838235E00C364D0 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714A39852838235E00C364D0 /* RecipeDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		714A397F2838198800C364D0 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		714A3981283820B100C364D0 /* RecipeCookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
 		714A3982283820B100C364D0 /* RecipeRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeRatingView.swift; sourceTree = "<group>"; };
+		714A39852838235E00C364D0 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				714A397F2838198800C364D0 /* RecipeCardView.swift */,
 				714A3981283820B100C364D0 /* RecipeCookingView.swift */,
 				714A3982283820B100C364D0 /* RecipeRatingView.swift */,
+				714A39852838235E00C364D0 /* RecipeDetailsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				714A397A28380FAF00C364D0 /* Fact.swift in Sources */,
 				714A397828380F9100C364D0 /* FactsData.swift in Sources */,
 				714A39572837761800C364D0 /* AppDelegate.swift in Sources */,
+				714A39862838235E00C364D0 /* RecipeDetailsView.swift in Sources */,
 				714A3968283783D200C364D0 /* AppView.swift in Sources */,
 				714A3966283783B700C364D0 /* SettingsView.swift in Sources */,
 				714A397628380EF400C364D0 /* FactsView.swift in Sources */,

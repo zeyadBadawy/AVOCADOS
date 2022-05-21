@@ -10,6 +10,8 @@ import SwiftUI
 struct RecipeCardView: View {
     //MARK: PROPERTIES
     var recipe:Recipe
+    @Environment(\.presentationMode) var presentationMode
+    @State private var showDetailsView = false
     //MARK: BODY
     var body: some View {
         VStack {
@@ -55,9 +57,16 @@ struct RecipeCardView: View {
                 .padding(.bottom , 12)
             }
         }//: VStack
+        
+        .sheet(isPresented: $showDetailsView, content: {
+            RecipeDetailsView(recipe: recipe)
+        })
         .background(Color.white)
         .cornerRadius(12)
         .shadow(color: Color("ColorBlackTransparentLight"), radius: 8, x: 0, y: 0)
+        .onTapGesture {
+            showDetailsView.toggle()
+        }
     }
 }
 //MARK: PREVIEW
